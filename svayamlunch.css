@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/svayamback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#cont{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #dd5656d1;
+    width: 12%;
+    height: 100vh;
+    
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    display: block;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(2, 128, 128);
+}
+#drop1{
+    position: relative;
+   
+    
+}
+#menu1{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 39vh;
+    list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+   background-color: aqua;
+   display: none;
+}
+#drop1:hover #menu1{
+    display: block;
+}
+#drop2{
+    position: relative;
+    padding: 0;
+}
+#menu2{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 39vh;
+    display: none;
+    
+}
+#drop2:hover #menu2{
+    display: block;
+}
+#menu3{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 39vh;
+    display: none;
+}
+#drop3{
+    position: relative;
+}
+#drop3:hover #menu3{
+    display: block;
+}
